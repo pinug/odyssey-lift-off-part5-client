@@ -20,6 +20,7 @@ const GET_MODULE_AND_PARENT_TRACK = gql`
       modules {
         id
         title
+        durationInSeconds
       }
     }
   }
